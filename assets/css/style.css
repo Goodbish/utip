@@ -442,6 +442,9 @@ body {
     overflow: scroll;
     position: relative; }
   .table__head .table__th:first-child {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
     z-index: 2; }
   .table__th {
     height: 60px;
@@ -455,7 +458,6 @@ body {
       left: 0;
       z-index: 1; }
   .table__th, .table__cell {
-    position: relative;
     padding: 8px;
     text-align: left;
     word-break: break-word; }
